@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS todo;
+CREATE DATABASE todo CHARSET=UTF8 COLLATE utf8_general_ci;
+USE todo;
+
+CREATE TABLE tarefa (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    description TEXT NOT NULL,
+    date TIMESTAMP,
+    status VARCHAR(10) NOT NULL
+);

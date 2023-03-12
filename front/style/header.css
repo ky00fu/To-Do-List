@@ -1,0 +1,21 @@
+input {
+    font-family: Montserrat;
+    border-radius: 5px;
+    padding: 1vw;
+    border-style: none;
+}
+
+#submit, #description {
+    margin-top: 3vw;
+}
+
+#submit {
+    align-self: center;
+    border-radius: 50px;
+    width: 6vw;
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+#description {
+    inline-size: 40vw;
+}

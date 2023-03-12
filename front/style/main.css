@@ -1,0 +1,32 @@
+main {
+    margin-top: 3vw;
+}
+
+#toDoTasks, #completedTasks {
+    font-family: Montserrat;
+
+    display: inline-block;
+    padding: 3vw;
+    width: 45vw;
+    height: 65vh;
+
+    border-radius: 50px;
+    background-color: white;
+    overflow: scroll;
+    text-align: left;
+    /* word-break: break-all; */
+}
+
+#toDoTasks::-webkit-scrollbar,
+#completedTasks::-webkit-scrollbar {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    margin-top: 10px;
+    border-spacing: 30px;
+}
