@@ -25,4 +25,4 @@ Projeto pro curso técnico de DS no SENAI.
 ![diagrama](/docs/assets/readme/diagrama.png)
 
 ## Casos de Uso
-1[casos-de-uso](/docs/assets/readme/casos-de-uso.png)
+![casos-de-uso](/docs/assets/readme/casos-de-uso.png)
