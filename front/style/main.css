@@ -14,7 +14,6 @@ main {
     background-color: white;
     overflow: scroll;
     text-align: left;
-    /* word-break: break-all; */
 }
 
 #toDoTasks::-webkit-scrollbar,
