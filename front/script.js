@@ -36,10 +36,10 @@ function list(arr) {
         const pDescription = document.createElement('td')
         const timestamp = document.createElement('td')
         const checkbox = document.createElement('td')
-        
+
         pDescription.innerHTML = e.description
-        timestamp.innerHTML = e.date
-        
+        timestamp.innerHTML = formatDate(e.date)
+
         const done = document.createElement('input')
         done.type = "checkbox"
         done.setAttribute('onclick', `alterarStatus('${e.id}')`)
@@ -66,6 +66,14 @@ function list(arr) {
             completedList.style.setProperty("text-decoration", "line-through")
         }
     })
+}
+
+function formatDate(date) {
+    return new Intl.DateTimeFormat('pt-BR', {
+        dateStyle: "short",
+        timeStyle: "short"
+
+    }).format(new Date(date)).replace(",","");
 }
 
 function alterarStatus(i) {
