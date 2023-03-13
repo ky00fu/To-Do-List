@@ -3,7 +3,7 @@ Projeto pro curso técnico de DS no SENAI.
 
 ## Para Executar
 - Clone o projeto no seu desktop/notebook;
-- Abre o XAMPP Control Panel e da start em MySQL;
+- Abre o XAMPP Control Panel e da start em MySQL e em Apache;
 - Copia e cola o script no diretório "/docs/todo.sql" no MariaDB ou PHPMyAdmin;
 - Abre o VSCode;
 - Aperta as teclas `CTRL + '` para abrir linha de comando;
